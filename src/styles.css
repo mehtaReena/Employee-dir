@@ -11,6 +11,7 @@ body{
     font-family: sans-serif;
 }
 .user-card{
+    border: 1px solid black;
     border: 2px solid white;
     background-color: white;
     display: flex;
@@ -18,11 +19,33 @@ body{
     gap :1rem;
     color: black;
     align-items: center;
+    border-radius: 5px;
 
 }
 .user-info{
     display: flex;
     flex-direction: column;
     border: 2px solid  white;
+    width:250px;
+
+}
+.user-container{
+    padding: 40px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow:wrap;
+   
+    gap: 2rem;
+    ;
+    
+    
+
+}
+.container{
+    display: flex;
+    flex-flow: column;
+   
+    width: 100%;
+    
 
 }
