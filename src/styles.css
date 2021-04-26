@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.user-card{
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    padding: 12px;
+    gap :1rem;
+    color: black;
+    align-items: center;
+
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  white;
+
+}
